@@ -1,0 +1,30 @@
+{
+  "name": "QualityCo/MessagesBundle",
+  "version": "1.0.0",
+  "description": "Manager message tool",
+  "type": "symfony-bundle",
+  "authors" : [{
+    "name" : "Mauricio Cantor",
+    "email" : "mauricio.cantor.p@hotmail.com",
+    "homepage": "http://qualitycoservices.com/"
+  }],
+  "keywords" : [
+    "messages",
+    "manager",
+    "tools",
+    "communication"
+  ],
+  "license" : [
+    "MIT"
+  ],
+  "require" : {
+    "php": ">=5.4",
+    "symfony/framework-bundle": ">=2.2",
+    "symfony/symfony": ">=2.2"
+  },
+  "autoload" : {
+    "psr-4" : {
+      "Qualityco\\MessagesBundle\\" : "dev-master"
+    }
+  }
+}
